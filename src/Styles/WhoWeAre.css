@@ -1,4 +1,4 @@
-/* General Styles */
+
 .who-we-are-container {
     padding: 4rem 2rem;
     background-color: #f9fafb;
@@ -114,15 +114,15 @@
   
   .who-we-are-content {
     display: flex;
-  justify-content: left; /* Centers the cards */
-  gap: 20px; /* Adds space between cards */
-  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: left; 
+  gap: 20px; 
+  flex-wrap: wrap;
   }
   
   .who-we-are-card {
     flex: 1;
-    min-width: 300px; /* Prevents shrinking */
-    max-width: 350px; /* Controls the width */
+    min-width: 300px;
+    max-width: 350px; 
     text-align: center;
     padding: 20px;
     background: white;
@@ -137,7 +137,7 @@
   
   .who-we-are-card .icon {
     font-size: 2.5rem;
-    color: #007bff; /* Change to your brand color */
+    color: #007bff; 
     margin-bottom: 1rem;
   }
   
@@ -215,7 +215,6 @@
     margin-bottom: 1rem;
   }
   
-  /* Work Philosophy Section */
   .work-philosophy-section {
     margin: 4rem 0;
   }
@@ -247,21 +246,20 @@
     line-height: 1.6;
   }
   
-  /* Target Audience Section */
   .target-audience-section {
     margin: 4rem 0;
   }
 
   .who-we-are-content {
     display: flex;
-    justify-content: center; /* Centers the cards horizontally */
-    gap: 20px; /* Adds space between cards */
-    flex-wrap: wrap; /* Ensures cards wrap to the next line if needed */
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
   }
   
   .who-we-are-card {
-    min-width: 300px; /* Prevents shrinking */
-    max-width: 350px; /* Controls the width */
+    min-width: 300px; 
+    max-width: 350px;
     text-align: center;
     padding: 20px;
     background: white;
@@ -314,9 +312,6 @@
     font-weight: 600;
 }
 
-/* Media Queries for Responsiveness */
-
-/* For screens up to 1200px */
 @media (max-width: 1200px) {
     .who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
         margin-left: 0;
@@ -368,7 +363,6 @@
     }
 }
 
-/* For screens up to 480px */
 @media (max-width: 480px) {
     .who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
         font-size: 24px;
@@ -390,8 +384,6 @@
         font-size: 2rem;
     }
 }
-
-/* Keyframes for Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -412,7 +404,6 @@
     to { transform: scale(1); }
 }
 
-/* Applying Animations */
 .who-we-are-container, .mission-vision-section, .work-philosophy-section, .target-audience-section {
     animation: fadeIn 1.5s ease-out;
 }

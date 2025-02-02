@@ -1,4 +1,4 @@
-/* Container Styling */
+
 .austra-container {
     padding: 40px 20px;
     background-color: #f9fafb;
@@ -6,7 +6,6 @@
     text-align: center;
   }
   
-  /* Title Styling */
   .austra-title {
     font-size: 36px;
     text-align: center;
@@ -59,7 +58,6 @@
     }
   }
 
-  /* Service Card */
   .austra-card {
     background: white;
     padding: 25px;
@@ -74,8 +72,7 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
-  
-  /* Card Title */
+
   .austra-card-title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -83,7 +80,6 @@
     margin-bottom: 10px;
   }
   
-  /* Card Description */
   .austra-card-description {
     font-size: 1rem;
     color: #374151;
@@ -91,7 +87,6 @@
     line-height: 1.6;
   }
   
-  /* Highlights List */
   .austra-card-highlights {
     list-style: none;
     padding: 0;
@@ -114,7 +109,6 @@
     font-weight: bold;
   }
   
-  /* Icon Styling */
 .austra-icon-container {
     text-align: center;
     margin-bottom: 15px;
@@ -124,8 +118,6 @@
     font-size: 40px;
     color: #2563eb;
   }
-  
-  /* Ensure cards have proper spacing for icons */
   .austra-card {
     display: flex;
     flex-direction: column;

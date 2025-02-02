@@ -116,7 +116,6 @@
   }
 
   
-  /* Styling for the Download Enquiry Data button */
 .download-excel-button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -150,21 +149,19 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
-    margin-top: 20px; /* Space from the button above */
+    margin-top: 20px; 
     max-width: 350px;
     width: 100%;
     text-align: center;
     border: 1px solid #ddd;
   }
   
-  /* Title in the prompt */
   .password-prompt h3 {
     margin: 0 0 15px 0;
     font-size: 18px;
     color: #333;
   }
   
-  /* Styling for the password input field */
   .password-input {
     width: 100%;
     padding: 10px;
@@ -181,7 +178,6 @@
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
   
-  /* Styling for the buttons */
   .submit-password-button,
   .cancel-password-button {
     display: inline-block;
@@ -192,10 +188,9 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    width: 45%; /* Adjust button width */
+    width: 45%; 
   }
-  
-  /* Submit button styling */
+
   .submit-password-button {
     background-color: #28a745;
     color: #fff;
@@ -216,12 +211,6 @@
     background-color: #c82333;
     box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
   }
-  /* Base styles (for screens larger than 768px) */
-/* Your existing CSS code goes here */
-
-/* Media Queries for Responsive Design */
-
-/* For screens smaller than 768px (Tablets and below) */
 @media (max-width: 768px) {
   .message-container {
       margin-top: 15px;
@@ -280,7 +269,6 @@
   }
 }
 
-/* For screens smaller than 480px (Mobile phones) */
 @media (max-width: 480px) {
   .message-container {
       padding: 15px;
@@ -323,7 +311,6 @@
   }
 }
 
-/* For screens smaller than 320px (Very small mobile phones) */
 @media (max-width: 320px) {
   .message-container {
       padding: 10px;
@@ -366,7 +353,6 @@
   }
 }
 
-/* For screens smaller than 250px (Extremely small screens) */
 @media (max-width: 250px) {
   .message-container {
       padding: 5px;

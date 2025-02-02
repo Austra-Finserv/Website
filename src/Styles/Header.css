@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px; /* Adjust the height of the header as needed */
+  height: 80px; 
   padding: 0 20px;
   border-bottom: 1px solid #ccc;
   
@@ -16,9 +16,9 @@
 
 }
 .header-image {
-  height: 98px; /* Maintain the aspect ratio */
-  width: 280px; /* Increase the width to make the logo wider */
-  max-width: none; /* Remove the constraint on max width */
+  height: 98px;
+  width: 280px; 
+  max-width: none; 
   margin-left: 50px;
   margin-left: 10px;
   margin-bottom: 5px;
@@ -31,7 +31,7 @@
   align-items: center;
   margin-left: 150px;
 }
-/* Navigation Styling */
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -58,13 +58,13 @@
 .nav-link:hover {
   color: #0288d1;
 }
-/* Divider Styling */
+
 .divider {
   height: 40px;
   width: 1px;
   background-color: #ccc;
 }
-/* Sign-In Button Styling */
+
 .sign-in-button {
   padding: 10px 20px;
   background: linear-gradient(#0056b3, #d73a3a);
@@ -79,226 +79,218 @@
   background-color: #4a148c;
 }
 
-/* Media Queries for All Screen Sizes */
-
-/* For screens up to 1200px */
 @media (max-width: 1200px) {
   .redesigned-header {
-    height: 70px; /* Reduce header height */
+    height: 70px;
     padding: 0 15px;
   }
 
   .header-left {
-    width: 120px; /* Adjust width */
+    width: 120px;
   }
 
   .header-image {
-    height: 80px; /* Adjust logo height */
-    width: 200px; /* Adjust logo width */
-    margin-left: 20px; /* Reduce margin */
+    height: 80px; 
+    width: 200px; 
+    margin-left: 20px; 
   }
 
   .header-right {
-    margin-left: 100px; /* Reduce margin */
+    margin-left: 100px; 
   }
 
   .nav-list {
-    gap: 15px; /* Reduce gap between nav items */
+    gap: 15px;
   }
 
   .nav-link {
-    font-size: 14px; /* Reduce font size */
+    font-size: 14px;
   }
 
   .nav-description {
-    font-size: 10px; /* Reduce description font size */
+    font-size: 10px; 
   }
 
   .divider {
-    height: 35px; /* Adjust divider height */
+    height: 35px; 
   }
 
   .sign-in-button {
-    padding: 8px 16px; /* Adjust button padding */
-    font-size: 14px; /* Reduce button font size */
+    padding: 8px 16px; 
+    font-size: 14px; 
   }
 }
 
-/* For screens up to 768px */
 @media (max-width: 768px) {
   .redesigned-header {
-    height: 60px; /* Further reduce header height */
+    height: 60px;
     padding: 0 10px;
   }
 
   .header-left {
-    width: 100px; /* Further adjust width */
+    width: 100px; 
   }
 
   .header-image {
-    height: 70px; /* Further adjust logo height */
-    width: 150px; /* Further adjust logo width */
-    margin-left: 10px; /* Further reduce margin */
+    height: 70px; 
+    width: 150px; 
+    margin-left: 10px; 
   }
 
   .header-right {
-    margin-left: 50px; /* Further reduce margin */
+    margin-left: 50px; 
   }
 
   .nav-list {
-    gap: 10px; /* Further reduce gap between nav items */
-  }
-
-  .nav-link {
-    font-size: 12px; /* Further reduce font size */
-  }
-
-  .nav-description {
-    font-size: 9px; /* Further reduce description font size */
-  }
-
-  .divider {
-    height: 30px; /* Further adjust divider height */
-  }
-
-  .sign-in-button {
-    padding: 6px 12px; /* Further adjust button padding */
-    font-size: 12px; /* Further reduce button font size */
-  }
+    gap: 10px;
 }
 
-/* For screens up to 480px */
+.nav-link {
+    font-size: 12px;
+}
+
+.nav-description {
+    font-size: 9px;
+}
+
+.divider {
+    height: 30px;
+}
+
+.sign-in-button {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+}
+
 @media (max-width: 480px) {
   .redesigned-header {
-    height: 50px; /* Further reduce header height */
+    height: 50px;
     padding: 0 5px;
   }
 
   .header-left {
-    width: 80px; /* Further adjust width */
+    width: 80px;
   }
 
   .header-image {
-    height: 60px; /* Further adjust logo height */
-    width: 120px; /* Further adjust logo width */
-    margin-left: 5px; /* Further reduce margin */
+    height: 60px;
+    width: 120px;
+    margin-left: 5px;
   }
 
   .header-right {
-    margin-left: 60px; /* Further reduce margin */
+    margin-left: 60px;
   }
 
   .nav-list {
-    gap: 5px; /* Further reduce gap between nav items */
+    gap: 5px;
   }
 
   .nav-link {
-    font-size: 8px; /* Further reduce font size */
+    font-size: 8px;
   }
 
   .nav-description {
-    font-size: 8px; /* Further reduce description font size */
-    display: none; /* Hide descriptions on very small screens */
+    font-size: 8px;
+    display: none;
   }
 
   .divider {
-    height: 20px; /* Further adjust divider height */
+    height: 20px;
   }
 
   .sign-in-button {
-    padding: 4px 8px; /* Further adjust button padding */
-    font-size: 10px; /* Further reduce button font size */
+    padding: 4px 8px;
+    font-size: 10px;
   }
 }
 
-/* For screens smaller than 480px (e.g., 320px, 375px) */
 @media (max-width: 400px) {
   .redesigned-header {
-    height: 45px; /* Further reduce header height */
-    padding: 0 3px; /* Further reduce padding */
+    height: 45px;
+    padding: 0 3px;
   }
 
   .header-left {
-    width: 70px; /* Further reduce width */
+    width: 70px;
   }
 
   .header-image {
-    height: 50px; /* Further reduce logo height */
-    width: 100px; /* Further reduce logo width */
-    margin-left: 3px; /* Further reduce margin */
+    height: 50px;
+    width: 100px;
+    margin-left: 3px;
   }
 
   .header-right {
-    margin-left: 90px; /* Further reduce margin */
+    margin-left: 90px;
   }
 
   .nav-list {
-    gap: 3px; /* Further reduce gap between nav items */
+    gap: 3px;
   }
 
   .nav-link {
-    font-size: 7px; /* Further reduce font size */
+    font-size: 7px;
   }
 
   .nav-description {
-    display: none; /* Ensure descriptions remain hidden */
+    display: none;
   }
 
   .divider {
-    height: 15px; /* Further reduce divider height */
+    height: 15px;
   }
 
   .sign-in-button {
-    padding: 3px 6px; /* Further reduce button padding */
-    font-size: 8px; /* Further reduce button font size */
+    padding: 3px 6px;
+    font-size: 8px;
   }
 }
 
-/* For screens between 200px and 400px */
 @media (min-width: 200px) and (max-width: 400px) {
   .redesigned-header {
-    height: 40px; /* Further reduce header height */
-    padding: 0 2px; /* Further reduce padding */
+    height: 40px;
+    padding: 0 2px;
   }
 
   .header-left {
-    width: 60px; /* Further reduce width */
+    width: 60px;
   }
 
   .header-image {
-    height: 40px; /* Further reduce logo height */
-    width: 80px; /* Further reduce logo width */
-    margin-left: 2px; /* Further reduce margin */
+    height: 40px;
+    width: 80px;
+    margin-left: 2px;
   }
 
   .header-right {
-    margin-left: 120px; /* Further reduce margin */
+    margin-left: 120px;
   }
 
   .nav-list {
-    gap: 2px; /* Further reduce gap between nav items */
+    gap: 2px;
   }
 
   .nav-link {
-    font-size: 6px; /* Further reduce font size */
+    font-size: 6px;
   }
 
   .nav-description {
-    display: none; /* Ensure descriptions remain hidden */
+    display: none;
   }
 
   .divider {
-    height: 7px; /* Further reduce divider height */
+    height: 7px;
     margin-top: 7px;
   }
 
   .sign-in-button {
-    padding: 2px 4px; /* Further reduce button padding */
-    font-size: 6px; /* Further reduce button font size */
+    padding: 2px 4px;
+    font-size: 6px;
   }
 }
 
-/* Keyframes for Animations */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -319,7 +311,6 @@
   to { transform: translateX(0); }
 }
 
-/* Applying Animations */
 .redesigned-header {
   animation: fadeIn 1s ease-out, slideInFromTop 0.8s ease-out;
 }
