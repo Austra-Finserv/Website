@@ -1,0 +1,410 @@
+.message-container {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+    margin-left: 20px;
+    background: linear-gradient(to bottom right, #f9f9f9, #eef3f8);
+  }
+  
+  .form-title {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .form-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007BFF, #00c4cc);
+    margin: 0.5rem auto 0;
+    border-radius: 5px;
+}
+
+  
+  .message-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-input,
+  .form-textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    background: #f5f5f5;
+    box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    outline: none;
+    box-shadow: inset 2px 2px 6px #bebebe, inset -2px -2px 6px #ffffff;
+  }
+  
+  .error {
+    border: 2px solid #e74c3c;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 12px;
+  }
+  
+  .form-textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%;
+    transition: all 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .whatsapp-button {
+    background-color: #25d366;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c7e;
+  }
+
+  
+  /* Styling for the Download Enquiry Data button */
+.download-excel-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .download-excel-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .download-excel-button:focus {
+    outline: none;
+  }
+  
+  .download-excel-button:active {
+    background-color: #003d7a;
+  }
+  
+  /* Container for the password prompt */
+.password-prompt {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 20px; /* Space from the button above */
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Title in the prompt */
+  .password-prompt h3 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Styling for the password input field */
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  .password-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Styling for the buttons */
+  .submit-password-button,
+  .cancel-password-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 45%; /* Adjust button width */
+  }
+  
+  /* Submit button styling */
+  .submit-password-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .submit-password-button:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.4);
+  }
+  
+  /* Cancel button styling */
+  .cancel-password-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .cancel-password-button:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+  }
+  /* Base styles (for screens larger than 768px) */
+/* Your existing CSS code goes here */
+
+/* Media Queries for Responsive Design */
+
+/* For screens smaller than 768px (Tablets and below) */
+@media (max-width: 768px) {
+  .message-container {
+      margin-top: 15px;
+      padding: 20px;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .form-title {
+      margin-left: 0;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+  }
+
+  .form-title::after {
+      width: 40px;
+  }
+
+  .form-input,
+  .form-textarea {
+      font-size: 14px;
+  }
+
+  .form-button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .button-group {
+      flex-direction: column;
+  }
+
+  .download-excel-button {
+      width: 100%;
+      font-size: 14px;
+  }
+
+  .password-prompt {
+      max-width: 90%;
+  }
+
+  .password-prompt h3 {
+      font-size: 16px;
+  }
+
+  .password-input {
+      font-size: 14px;
+  }
+
+  .submit-password-button,
+  .cancel-password-button {
+      width: 100%;
+      margin: 5px 0;
+  }
+}
+
+/* For screens smaller than 480px (Mobile phones) */
+@media (max-width: 480px) {
+  .message-container {
+      padding: 15px;
+      margin-top: 10px;
+  }
+
+  .form-title {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+  }
+
+  .form-title::after {
+      width: 30px;
+  }
+
+  .form-input,
+  .form-textarea {
+      font-size: 12px;
+  }
+
+  .form-button {
+      font-size: 14px;
+  }
+
+  .download-excel-button {
+      font-size: 12px;
+  }
+
+  .password-prompt h3 {
+      font-size: 14px;
+  }
+
+  .password-input {
+      font-size: 12px;
+  }
+
+  .submit-password-button,
+  .cancel-password-button {
+      font-size: 14px;
+  }
+}
+
+/* For screens smaller than 320px (Very small mobile phones) */
+@media (max-width: 320px) {
+  .message-container {
+      padding: 10px;
+      margin-top: 5px;
+  }
+
+  .form-title {
+      font-size: 1rem;
+      margin-bottom: 15px;
+  }
+
+  .form-title::after {
+      width: 20px;
+  }
+
+  .form-input,
+  .form-textarea {
+      font-size: 10px;
+  }
+
+  .form-button {
+      font-size: 12px;
+  }
+
+  .download-excel-button {
+      font-size: 10px;
+  }
+
+  .password-prompt h3 {
+      font-size: 12px;
+  }
+
+  .password-input {
+      font-size: 10px;
+  }
+
+  .submit-password-button,
+  .cancel-password-button {
+      font-size: 12px;
+  }
+}
+
+/* For screens smaller than 250px (Extremely small screens) */
+@media (max-width: 250px) {
+  .message-container {
+      padding: 5px;
+      margin-top: 2px;
+  }
+
+  .form-title {
+      font-size: 0.875rem;
+      margin-bottom: 10px;
+  }
+
+  .form-title::after {
+      width: 15px;
+  }
+
+  .form-input,
+  .form-textarea {
+      font-size: 8px;
+  }
+
+  .form-button {
+      font-size: 10px;
+  }
+
+  .download-excel-button {
+      font-size: 8px;
+  }
+
+  .password-prompt h3 {
+      font-size: 10px;
+  }
+
+  .password-input {
+      font-size: 8px;
+  }
+
+  .submit-password-button,
+  .cancel-password-button {
+      font-size: 10px;
+  }
+}

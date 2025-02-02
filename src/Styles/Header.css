@@ -1,0 +1,341 @@
+.redesigned-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust the height of the header as needed */
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+  
+}
+.header-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 110%;
+  width: 150px;
+
+}
+.header-image {
+  height: 98px; /* Maintain the aspect ratio */
+  width: 280px; /* Increase the width to make the logo wider */
+  max-width: none; /* Remove the constraint on max width */
+  margin-left: 50px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+}
+.header-right {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+}
+/* Navigation Styling */
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  gap: 20px;
+}
+.nav-item {
+  text-align: center;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.nav-description {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+  display: block;
+}
+.nav-link:hover {
+  color: #0288d1;
+}
+/* Divider Styling */
+.divider {
+  height: 40px;
+  width: 1px;
+  background-color: #ccc;
+}
+/* Sign-In Button Styling */
+.sign-in-button {
+  padding: 10px 20px;
+  background: linear-gradient(#0056b3, #d73a3a);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.sign-in-button:hover {
+  background-color: #4a148c;
+}
+
+/* Media Queries for All Screen Sizes */
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+  .redesigned-header {
+    height: 70px; /* Reduce header height */
+    padding: 0 15px;
+  }
+
+  .header-left {
+    width: 120px; /* Adjust width */
+  }
+
+  .header-image {
+    height: 80px; /* Adjust logo height */
+    width: 200px; /* Adjust logo width */
+    margin-left: 20px; /* Reduce margin */
+  }
+
+  .header-right {
+    margin-left: 100px; /* Reduce margin */
+  }
+
+  .nav-list {
+    gap: 15px; /* Reduce gap between nav items */
+  }
+
+  .nav-link {
+    font-size: 14px; /* Reduce font size */
+  }
+
+  .nav-description {
+    font-size: 10px; /* Reduce description font size */
+  }
+
+  .divider {
+    height: 35px; /* Adjust divider height */
+  }
+
+  .sign-in-button {
+    padding: 8px 16px; /* Adjust button padding */
+    font-size: 14px; /* Reduce button font size */
+  }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .redesigned-header {
+    height: 60px; /* Further reduce header height */
+    padding: 0 10px;
+  }
+
+  .header-left {
+    width: 100px; /* Further adjust width */
+  }
+
+  .header-image {
+    height: 70px; /* Further adjust logo height */
+    width: 150px; /* Further adjust logo width */
+    margin-left: 10px; /* Further reduce margin */
+  }
+
+  .header-right {
+    margin-left: 50px; /* Further reduce margin */
+  }
+
+  .nav-list {
+    gap: 10px; /* Further reduce gap between nav items */
+  }
+
+  .nav-link {
+    font-size: 12px; /* Further reduce font size */
+  }
+
+  .nav-description {
+    font-size: 9px; /* Further reduce description font size */
+  }
+
+  .divider {
+    height: 30px; /* Further adjust divider height */
+  }
+
+  .sign-in-button {
+    padding: 6px 12px; /* Further adjust button padding */
+    font-size: 12px; /* Further reduce button font size */
+  }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  .redesigned-header {
+    height: 50px; /* Further reduce header height */
+    padding: 0 5px;
+  }
+
+  .header-left {
+    width: 80px; /* Further adjust width */
+  }
+
+  .header-image {
+    height: 60px; /* Further adjust logo height */
+    width: 120px; /* Further adjust logo width */
+    margin-left: 5px; /* Further reduce margin */
+  }
+
+  .header-right {
+    margin-left: 60px; /* Further reduce margin */
+  }
+
+  .nav-list {
+    gap: 5px; /* Further reduce gap between nav items */
+  }
+
+  .nav-link {
+    font-size: 8px; /* Further reduce font size */
+  }
+
+  .nav-description {
+    font-size: 8px; /* Further reduce description font size */
+    display: none; /* Hide descriptions on very small screens */
+  }
+
+  .divider {
+    height: 20px; /* Further adjust divider height */
+  }
+
+  .sign-in-button {
+    padding: 4px 8px; /* Further adjust button padding */
+    font-size: 10px; /* Further reduce button font size */
+  }
+}
+
+/* For screens smaller than 480px (e.g., 320px, 375px) */
+@media (max-width: 400px) {
+  .redesigned-header {
+    height: 45px; /* Further reduce header height */
+    padding: 0 3px; /* Further reduce padding */
+  }
+
+  .header-left {
+    width: 70px; /* Further reduce width */
+  }
+
+  .header-image {
+    height: 50px; /* Further reduce logo height */
+    width: 100px; /* Further reduce logo width */
+    margin-left: 3px; /* Further reduce margin */
+  }
+
+  .header-right {
+    margin-left: 90px; /* Further reduce margin */
+  }
+
+  .nav-list {
+    gap: 3px; /* Further reduce gap between nav items */
+  }
+
+  .nav-link {
+    font-size: 7px; /* Further reduce font size */
+  }
+
+  .nav-description {
+    display: none; /* Ensure descriptions remain hidden */
+  }
+
+  .divider {
+    height: 15px; /* Further reduce divider height */
+  }
+
+  .sign-in-button {
+    padding: 3px 6px; /* Further reduce button padding */
+    font-size: 8px; /* Further reduce button font size */
+  }
+}
+
+/* For screens between 200px and 400px */
+@media (min-width: 200px) and (max-width: 400px) {
+  .redesigned-header {
+    height: 40px; /* Further reduce header height */
+    padding: 0 2px; /* Further reduce padding */
+  }
+
+  .header-left {
+    width: 60px; /* Further reduce width */
+  }
+
+  .header-image {
+    height: 40px; /* Further reduce logo height */
+    width: 80px; /* Further reduce logo width */
+    margin-left: 2px; /* Further reduce margin */
+  }
+
+  .header-right {
+    margin-left: 120px; /* Further reduce margin */
+  }
+
+  .nav-list {
+    gap: 2px; /* Further reduce gap between nav items */
+  }
+
+  .nav-link {
+    font-size: 6px; /* Further reduce font size */
+  }
+
+  .nav-description {
+    display: none; /* Ensure descriptions remain hidden */
+  }
+
+  .divider {
+    height: 7px; /* Further reduce divider height */
+    margin-top: 7px;
+  }
+
+  .sign-in-button {
+    padding: 2px 4px; /* Further reduce button padding */
+    font-size: 6px; /* Further reduce button font size */
+  }
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes slideInFromLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideInFromRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+/* Applying Animations */
+.redesigned-header {
+  animation: fadeIn 1s ease-out, slideInFromTop 0.8s ease-out;
+}
+
+.header-left {
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.header-right {
+  animation: slideInFromRight 1s ease-out;
+}
+
+.nav-item {
+  animation: fadeIn 1.5s ease-out;
+}
+
+.sign-in-button {
+  animation: fadeIn 2s ease-out;
+}

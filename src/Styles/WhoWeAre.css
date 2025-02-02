@@ -1,0 +1,434 @@
+/* General Styles */
+.who-we-are-container {
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3748;
+  }
+  
+  .who-we-are-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 530px;
+    margin-bottom: 20px;
+  }
+
+  .who-we-are-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007BFF, #00c4cc);
+    margin: 0.5rem auto 0;
+    border-radius: 5px;
+}
+
+  .mission-vision-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  }
+
+  .mission-vision-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007BFF, #00c4cc);
+    margin: 0.5rem auto 0;
+    border-radius: 5px;
+  }
+
+  .work-philosophy-title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 420px;
+    margin-bottom: 20px;
+  }
+
+  .work-philosophy-title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007BFF, #00c4cc);
+    margin: 0.5rem auto 0;
+    border-radius: 5px;
+  }
+  
+  .target-audience-title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .who-we-are-content {
+    display: flex;
+  justify-content: left; /* Centers the cards */
+  gap: 20px; /* Adds space between cards */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  }
+  
+  .who-we-are-card {
+    flex: 1;
+    min-width: 300px; /* Prevents shrinking */
+    max-width: 350px; /* Controls the width */
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+  }
+  
+  .who-we-are-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .who-we-are-card .icon {
+    font-size: 2.5rem;
+    color: #007bff; /* Change to your brand color */
+    margin-bottom: 1rem;
+  }
+  
+  .who-we-are-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .who-we-are-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  .target-audience-title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007BFF, #00c4cc);
+    margin: 0.5rem auto 0;
+    border-radius: 5px;
+  }
+
+
+  .section-description {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  /* Mission and Vision Section */
+  .mission-vision-section {
+    margin: 4rem 0;
+  }
+  
+  .mission-vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mission-card,
+  .vision-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .mission-card h3,
+  .vision-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+  
+  .mission-card p,
+  .vision-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #3182ce;
+    margin-bottom: 1rem;
+  }
+  
+  /* Work Philosophy Section */
+  .work-philosophy-section {
+    margin: 4rem 0;
+  }
+  
+  .philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .philosophy-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .philosophy-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+  
+  .philosophy-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Target Audience Section */
+  .target-audience-section {
+    margin: 4rem 0;
+  }
+
+  .who-we-are-content {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between cards */
+    flex-wrap: wrap; /* Ensures cards wrap to the next line if needed */
+  }
+  
+  .who-we-are-card {
+    min-width: 300px; /* Prevents shrinking */
+    max-width: 350px; /* Controls the width */
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+  .target-audience-section .target-audience-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .target-audience-image {
+    flex: 1;
+  }
+  
+  .target-audience-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .target-audience-text {
+    flex: 1;
+  }
+  
+  .who-we-are-card,.mission-card,.vision-card,.philosophy-card{
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #ffffff, #e3f2fd);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .target-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+.target-description strong {
+    color: #007cf0;
+    font-weight: 600;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+    .who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
+        margin-left: 0;
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .who-we-are-content, .mission-vision-grid, .philosophy-grid {
+        gap: 15px;
+    }
+
+    .who-we-are-card, .mission-card, .vision-card, .philosophy-card {
+        min-width: 45%;
+        max-width: 45%;
+    }
+
+    .target-audience-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .target-audience-image, .target-audience-text {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .who-we-are-container {
+        padding: 2rem 1rem;
+    }
+
+    .who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
+        font-size: 28px;
+    }
+
+    .who-we-are-card, .mission-card, .vision-card, .philosophy-card {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .section-description, .target-description {
+        font-size: 1.1rem;
+    }
+
+    .target-audience-content {
+        flex-direction: column;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
+        font-size: 24px;
+    }
+
+    .section-description, .target-description {
+        font-size: 1rem;
+    }
+
+    .who-we-are-content, .mission-vision-grid, .philosophy-grid {
+        gap: 10px;
+    }
+
+    .who-we-are-card, .mission-card, .vision-card, .philosophy-card {
+        padding: 15px;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInFromRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+}
+
+/* Applying Animations */
+.who-we-are-container, .mission-vision-section, .work-philosophy-section, .target-audience-section {
+    animation: fadeIn 1.5s ease-out;
+}
+
+.who-we-are-title, .mission-vision-title, .work-philosophy-title, .target-audience-title {
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.who-we-are-content, .mission-vision-grid, .philosophy-grid {
+    animation: slideInFromRight 1s ease-out;
+}
+
+.who-we-are-card, .mission-card, .vision-card, .philosophy-card {
+    animation: scaleUp 0.5s ease-out;
+}
+
+.target-audience-content {
+    animation: fadeIn 1.5s ease-out;
+}

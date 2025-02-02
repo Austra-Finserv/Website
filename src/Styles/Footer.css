@@ -1,0 +1,30 @@
+/* Footer.css */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #6c757d;
+  margin-top: 10px;
+}

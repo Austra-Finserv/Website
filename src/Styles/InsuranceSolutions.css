@@ -1,0 +1,546 @@
+/* General container styling */
+.solutions-container {
+  padding: 50px 20px;
+  background: linear-gradient(to bottom right, #f9f9f9, #eef3f8);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.solutions-title {
+  font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(90deg,#0056b3, #d73a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00c6ff;
+    display: inline-block;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+.solutions-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #007BFF, #00c4cc);
+  margin: 0.5rem auto 0;
+  border-radius: 5px;
+}
+/* Grid layout */
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card styling */
+.solution-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+  background: linear-gradient(90deg, #ffffff, #e3f2fd);
+}
+
+/* Card hover effects */
+.solution-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Header section */
+.solution-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* Icon styling */
+.solution-icon {
+  font-size: 1.3rem;
+  color: white; /* Change icon color to white */
+  background: linear-gradient(90deg, #007BFF, #00c4cc);
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title inside cards */
+.solution-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0;
+}
+
+/* List styling */
+.solution-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.solution-item {
+  font-size: 1rem;
+  color: #4a5568;
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+/* Bullet style */
+.solution-item::before {
+  content: "•";
+  color: #3182ce;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+.intro-section {
+  background: #eef6fc;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  background: linear-gradient(90deg,#0056b3, #d73a3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #00c6ff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.intro-text h1::after {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #007BFF, #00c4cc);
+  margin: 0.5rem auto 0;
+  border-radius: 5px;
+}
+.intro-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #4b4b4b;
+  margin-bottom: 1rem;
+}
+
+.example-section {
+  margin-top: 2rem;
+}
+
+.example-section h2 {
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #ffffff, #e3f2fd);
+}
+
+.example-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.step {
+  background: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+  font-size: 1.4rem;
+  color: #0056b3;
+  margin-bottom: 0.5rem;
+}
+
+.step p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+.steps-container {
+  background: #f9fbff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.steps-container h2 {
+  font-size: 1.8rem;
+  color: #003366;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.step-arrow {
+  font-size: 2rem;
+  color: #0056b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-grid {
+  display: flex;
+  gap: 0.5rem; /* Reduced gap */
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Ensure cards stay in a single line */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.step-card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 220px;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0 0.25rem; /* Additional margin control */
+  background: linear-gradient(90deg, #ffffff, #e3f2fd);
+}
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-image {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.step-title {
+  font-size: 1.2rem;
+  color: #0056b3;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.insurance-container {
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.intro-text h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.intro-text p {
+  font-size: 16px;
+}
+
+.coverage-section h2,
+.benefits-section h2,
+.coverage-details h2,
+.exclusions-section h2 {
+  font-size: 22px;
+  color: #1e87f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.coverage-section,
+.benefits-section,
+.coverage-details,
+.exclusions-section { background: linear-gradient(90deg, #ffffff, #e3f2fd);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Add spacing between lines */
+.coverage-section p,
+.benefits-section p,
+.coverage-details p,
+.exclusions-section p,
+.coverage-section ul li,
+.benefits-section ul li,
+.coverage-details ul li,
+.exclusions-section ul li {
+  line-height: 1.8; /* Increases spacing between lines */
+  margin-bottom: 10px; /* Adds space between paragraphs and list items */
+}
+
+
+.coverage-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.coverage-details ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; /* Ensures proper spacing between icon and text */
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.coverage-details ul li i {
+  font-size: 20px;
+  color: #007bff;
+  flex-shrink: 0; /* Prevents icon from resizing */
+}
+
+.coverage-details ul li strong {
+  color: #2c3e50;
+  min-width: 220px; /* Ensures labels have uniform width */
+  display: inline-block;
+  font-weight: bold;
+}
+
+.coverage-details p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* General Styling for Lists */
+.insurance-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.insurance-container ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; /* Ensures proper spacing between icon and text */
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Icon Styling */
+.insurance-container ul li i {
+  font-size: 20px;
+  color: #007bff;
+  flex-shrink: 0; /* Prevents icons from resizing */
+}
+
+/* Text Styling with Proper Alignment */
+.insurance-container ul li strong {
+  color: #2c3e50;
+  min-width: 220px; /* Uniform label width */
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* Section Headers */
+.insurance-container h2 {
+  font-size: 22px;
+  color: #1d3557;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Header Icons */
+.insurance-container h2 i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Paragraph Styling */
+.insurance-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .insurance-container {
+    padding: 15px;
+  }
+  
+  .intro-text h1 {
+    font-size: 24px;
+  }
+  
+  .coverage-section h2,
+  .benefits-section h2,
+  .coverage-details h2,
+  .exclusions-section h2 {
+    font-size: 20px;
+  }
+}
+
+
+/* General container styling */
+.solutions-container {
+  padding: 50px 20px;
+  background: linear-gradient(to bottom right, #f9f9f9, #eef3f8);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Title animations */
+.solutions-title {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card hover animations */
+.solution-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .solutions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .solutions-container {
+    padding: 40px 15px;
+  }
+  .solutions-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .solutions-title {
+    font-size: 28px;
+  }
+  .solution-card {
+    padding: 1.5rem;
+  }
+  .solutions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .solutions-container {
+    padding: 30px 10px;
+  }
+  .solutions-title {
+    font-size: 24px;
+  }
+  .solution-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .solutions-title {
+    font-size: 20px;
+  }
+  .solutions-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Animations for icons */
+.solution-icon {
+  font-size: 1.3rem;
+  color: white;
+  background: linear-gradient(90deg, #007BFF, #00c4cc);
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.solution-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Button animations */
+.button {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #2a5298, #1e3c72);
+  transform: scale(1.05);
+}
+
+@media (min-width: 1200px) {
+  .solutions-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
