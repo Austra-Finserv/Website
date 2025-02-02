@@ -460,6 +460,7 @@
 @media (max-width: 768px) {
   .solutions-title {
     font-size: 28px;
+    margin-left: 31px;
   }
   .solution-card {
     padding: 1.5rem;
@@ -530,3 +531,42 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 768px) { /* Adjust for small screens */
+  .exclusions-section,
+  .coverage-details,.benefits-section {
+    display: flex;
+    flex-direction: column; /* Stack items below each other */
+    align-items: flex-start; /* Align content to the left */
+    text-align: left;
+    width: 100%;
+  }
+
+  .exclusions-section h2,
+  .coverage-details h2 ,.benefits-section h2 {
+    text-align: center; /* Center the heading */
+    width: 100%;
+    margin-bottom: 10px; /* Space between heading and content */
+  }
+
+  .exclusions-section ul,
+  .coverage-details ul ,.benefits-section ul{
+    width: 100%;
+    padding: 0;
+  }
+
+  .exclusions-section ul li,
+  .coverage-details ul li ,.benefits-section ul li{
+    display: block; /* Ensure each item takes full width */
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .exclusions-section ul li strong,
+  .coverage-details ul li strong,.benefits-section ul li strong {
+    display: block; /* Move bold text to a new line */
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+}
+
