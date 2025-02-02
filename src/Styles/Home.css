@@ -675,7 +675,7 @@
   }
 }
 
-//* For screens less than 480px */
+/* For screens less than 480px */
 @media (max-width: 480px) {
   .home-title,
   .Services-title,
